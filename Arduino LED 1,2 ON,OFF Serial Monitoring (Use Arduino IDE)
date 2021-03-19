@@ -1,4 +1,6 @@
-//Arduino LED 1,2 ON,OFF Serial Monitoring (Use Arduino IDE)
+// Arduino LED 1,2 ON,OFF Serial Monitoring (Use Arduino IDE)
+// Arduino code
+
 
 int led1 = 13;
 int led2 = 12;
