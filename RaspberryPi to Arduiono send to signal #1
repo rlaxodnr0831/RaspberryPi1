@@ -1,0 +1,13 @@
+// RaspberryPi to Arduiono send to signal
+// Arduino code
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if(Serial.available())
+  {
+    Serial.write(Serial.read());
+  }
+}
